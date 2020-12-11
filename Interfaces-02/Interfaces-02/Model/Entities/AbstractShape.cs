@@ -2,9 +2,10 @@
 
 namespace Interfaces_02.Model.Entities
 {
-    abstract class Shape
+    abstract class AbstractShape : IShape
     {
         public Color Color { get; set; }
+
         public abstract double Area();
     }
 }

@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Interfaces_02.Model.Entities
 {
-    class Circle : Shape
+    class Circle : AbstractShape
     {
         public double Radius { get; set; }
         public override double Area()
