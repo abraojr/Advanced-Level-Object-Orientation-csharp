@@ -9,6 +9,7 @@ namespace Delegates_05
     {
         static void Main(string[] args)
         {
+            /*Make a program that, from a list of products, generates a new list containing the names of the products in capital letters.*/
 
             List<Product> list = new List<Product>();
             list.Add(new Product("Tv", 900.00));
@@ -23,6 +24,8 @@ namespace Delegates_05
             {
                 Console.WriteLine(s);
             }
+            /* The function "Select" (belonging to the LINQ) is a function that applies a function to all elements of a collection, thus generating a new 
+             *collection (of the type IEnumerable).*/
         }
     }
 }
