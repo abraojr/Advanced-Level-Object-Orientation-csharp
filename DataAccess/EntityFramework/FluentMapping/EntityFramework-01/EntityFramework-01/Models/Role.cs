@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace EntityFramework_01.Models
 {
@@ -9,5 +7,6 @@ namespace EntityFramework_01.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Slug { get; set; }
+        public IList<User> Users { get; set; }
     }
 }
