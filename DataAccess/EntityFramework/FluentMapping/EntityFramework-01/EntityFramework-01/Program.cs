@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntityFramework_01.Data;
+using System;
 
 namespace EntityFramework_01
 {
@@ -6,7 +7,7 @@ namespace EntityFramework_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using var context = new BlogDataContext();
         }
     }
 }
