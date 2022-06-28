@@ -39,6 +39,8 @@ namespace EntityFramework_02.Data.Mappings
 
             builder.Property(x => x.PasswordHash);
 
+            builder.Property(x => x.GitHub);
+
             builder.Property(x => x.Slug)
                 .IsRequired()
                 .HasColumnName("Slug")
